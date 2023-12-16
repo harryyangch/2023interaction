@@ -25,11 +25,11 @@ void genMaze(int i,int j){
   }
 }
 void setup(){
-  size(500,500);
+  size(600,600);
   genMaze(0,0);
   for(int i=0;i<9;i++){
-    for(int j=0;j<9;j++){
-      print(" "+wallH[i][j]);
+    for(int j=0;j<10;j++){
+      print(" "+wallW[i][j]);
     }
     println();
   }
@@ -54,5 +54,7 @@ void draw(){
       else fill(0);
       rect(j*50,i*50,50,50);
     }
-  }*/
+  }*/  
+  
+  
 }
